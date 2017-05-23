@@ -11,6 +11,12 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
+# install server json
+npm install -g json-server
+
+# run server json
+json-server --watch db.json
+
 # build for production with minification
 npm run build
 
